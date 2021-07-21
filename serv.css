@@ -1,0 +1,52 @@
+.rext{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+.ser{
+    height:150px;
+    width: 150px;
+    background-color:grey;
+   margin:1vw;
+   transition: 300ms;
+   
+}
+
+h3{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top:10vw;
+}
+.cont{
+    margin-left:15vw;
+    margin-top: 10vw;
+}
+/*  */
+@media screen and (min-width:570px) {
+
+    .rext{
+        height: 300px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2vw;
+    }
+    .cont{
+        margin-left:19vw;
+        margin-right:3vw;
+        margin-top: 2vw;
+    }
+
+    .ser{
+        transition: 300ms;
+     
+    height: 200px;
+    width: 150px;
+    }
+
+    
+}

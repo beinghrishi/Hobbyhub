@@ -1,0 +1,4 @@
+<?php
+$servicesthumbnail=3;
+
+?>

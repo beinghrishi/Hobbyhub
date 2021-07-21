@@ -1,0 +1,77 @@
+/* profile img */
+.profile-img{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    margin: 4vw;
+}
+.logo{
+    height:6vw ;
+}
+.profile-earn{
+    height: 150px;
+    width: 150px;
+    background-color: khaki;
+    margin: 4vw;
+}
+
+.order,.comp,.pending,.capsule1,.capsule2,.capsule3{
+    display:none;
+    background-color:;
+    height:300px ;
+    width:95%;
+    
+    margin-top:4vw;
+    padding:3vw;
+    border:grey 2px solid;
+}
+
+/* admin panel  */
+.charges{
+
+height:50px;
+width: 100px;
+background-color:goldenrod;
+font-size: 2rem;
+padding-left: 2%;
+
+
+}
+.container11{
+    margin-top: 2vw;
+    padding: 0vw;
+
+}
+
+
+
+
+
+
+/* repso */
+@media screen and (max-width: 900px) and (min-width: 300px){
+    .profile-img{
+        height: 100px;
+        width: 100px;
+        background-color: grey;
+        margin: 4vw;
+    }
+
+
+h1{
+    font-size: 25px;
+}
+h4{
+    font-size: 10px;
+}
+.logo{
+    height:20vw ;
+}
+.bot{
+    padding: 1%;
+}
+.img-fluid{
+    height: 150px;
+}
+
+}

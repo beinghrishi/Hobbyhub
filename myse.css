@@ -1,0 +1,100 @@
+
+.create{
+
+height:200px;
+background-image: url("");
+width:200px;
+
+margin: 1vw;
+
+    
+}
+.create:hover{
+
+    box-shadow: 0px 4px 10px;
+    transition: 300ms;
+
+}
+.robot{
+
+margin:20px;
+
+
+}
+#newCreate{
+    background-color:;
+    width:200px;
+    height:200px;
+border: 1px solid black;
+margin: 1vw;
+
+}
+#newCreate:hover{
+
+    color:white;
+    padding:20px;
+    transition: 300ms;
+}
+.service1{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 5%;
+}
+.log{
+    height: 7vw;
+}
+.orders{
+background-color:;
+height:;
+width:90% ;
+margin: auto;
+padding: 2%;
+
+
+
+}
+/* service2 */
+
+.push{
+background-color: gray;
+height: 200px;
+width: 200px;
+margin:1%;
+}
+
+.gallery{
+    margin-left:8%;
+    margin-bottom:8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .create{
+
+        height:150px;
+        background-image: url("");
+        width:150px;
+        
+        margin: 1vw;
+        
+            
+        }
+        .service1{
+            display:flex;
+            flex-wrap:wrap;
+            margin: 10%;
+            flex-direction: 
+        }
+        #newCreate{
+            background-colo:;
+            width:150px;
+            height:150px;
+        border: 1px solid black;
+        margin: 1vw;
+        
+        }
+
+}

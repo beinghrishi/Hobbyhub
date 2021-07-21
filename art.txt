@@ -1,0 +1,13 @@
+ <option value="illustration">Illustration</option>
+ <option value="portrait_art">Portrait art</option
+ <option value="caricature">Caricature</option
+ <option value="Mandala">Mandala</option>
+ <option value="line_art">Line Art</option>
+ <option value="sketching">Sketching</option>
+ <option value="calligraphy">Calligraphy</option>
+ <option value="painting">Painting</option>
+ <option value="mix_media">Mix Media</option>
+ <option value="art">Art</option>
+<option value="contemporary_art">Contemporary art</option>
+<option value="doodle">doodle</option>
+ <option value="graffiti">Graffiti</option>

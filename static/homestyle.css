@@ -1,0 +1,416 @@
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  overflow-x:hidden ;
+   
+}
+#browse:hover{
+  
+  transition: 300ms;
+  transform: skewX(-20deg);
+
+}
+.bigHeading{
+  font-size: 4vw;
+  text-align: center;
+  margin: 2vw;
+}
+#logo{
+    margin-right:200px;
+}
+.log{
+  height:5vw ;
+}
+.abt_content,.serv,.testi{
+  opacity: 0;
+}
+.animate__animated {
+opacity: 1;
+}
+#join{
+    padding-right:3vw;
+    padding-left:3vw;
+}
+#searcharea{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1e767+0,feb645+100;Yellow+3D */
+
+background-image:url("static/react.png");
+    background-position: center;
+    background-size:cover;
+    height:30vw;
+}
+#searchbar{
+    margin-left:30vw;
+    margin-right:auto;
+    padding-top:12vw;
+    
+}
+
+#popular_services{
+    display:flex;
+    flex-direction:row;
+  
+}
+.box{
+  height:100px;
+  width:100px;
+  margin: 2vw;
+  background-image: url("https://source.unsplash.com/random");
+  outline: 1px solid grey;
+  transition:600ms;
+ 
+}
+#browse{
+  margin-left:35%;
+  margin-top:1%;
+  transform: scale(1.2);
+}
+/* particle js*/
+.main_box{
+
+  margin-left:19vw;
+  
+}
+#particles-js{
+  height: 100%;
+  background-color: red;
+}
+/*  */
+.box:hover{
+  transform:translateY(-10px);
+  height: 250px;
+  width: 350px;
+}
+footer{
+  background-color:#30595F;
+}
+.footer_content{
+  height:500px;
+  width: 100%;
+  background-color: #30595F;
+  margin-top: 10%;
+}
+
+.main_content{
+    margin-left:2vw;
+    margin-right:2vw;
+}
+#popular_services_name{
+    color:black;
+    font-weight:bold;
+    font-size:2vw;
+    margin-top:2vw;
+}
+
+#popular_freelancers_name{
+    color:black;
+    font-weight:bold;
+    font-size:2vw;
+    margin-top:2vw;
+}
+
+#popular_freelancers{
+    display:flex;
+    flex-direction:row;
+}
+#popular_freelancers div{
+    background-color: #b42727;
+  width: 18%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  height:15vw;
+}
+#browse_more{
+    /* float:right; */
+    margin:3vw;
+    /* margin:15px; */
+    
+   
+}
+
+
+
+#browse_More{
+  float: right;
+}
+/* footer */
+/* Modal */
+.registered{
+  display: none;
+}
+.customer{
+  display: none;
+}
+
+.imageBox{
+  height:100%;
+  width:100%;
+  background-image: url("https://source.unsplash.com/random");
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* signin */
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+   
+    width: 40vw;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color:black;
+    float: right;
+    font-size:1vw ;
+    vertical-align: super;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+#registertitle{
+    margin-left:11vw;
+    font-size:1.5vw;
+    margin-bottom:15vw;
+    
+}
+
+
+.modal-content ul{
+display:flex;
+list-style:none;
+}
+
+div.new{
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+
+
+
+/* Style inputs, select elements and textareas */
+
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #0DFF56;
+    color: white;
+    padding: 0.8vw 1vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    margin-left:13vw;
+    width:10vw;
+    font-size:0.9vw;
+  }
+  
+  /* Style the container */
+ 
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  form td{
+      padding:0.5vw 1vw 0.5vw 1vw;
+  }
+
+  input[type=text], select, textarea{
+    width: 15vw;
+    margin-left:1vw;
+    padding: 0.4vw 1.5vw 0.4vw 1.5vw;
+    font-size:0.8vw;
+    text-align:center;
+    background-color:#2C2c2C;
+    border-radius: 0.5vw;
+    height:2.5vw;
+    box-shadow:0 0;
+    border: none;
+    
+  }
+
+  .modal1{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* .modal-inside1{
+     padding:1vw 3vw 1vw 3vw;
+    align-items: center;
+} */
+/* mobile responsive */
+@media screen and (max-width:600px) {
+.main_box{
+ 
+  margin-left: 10%;
+}
+.{
+  padding: 1%;
+  font-size: 1vw;
+}
+  .box{
+    height:150px ;
+    width:150px;
+  }
+  .box:hover{
+    height:170px;
+    width:170px;
+  }
+.bigHeading{
+  font-size:10vw ;
+  margin-top: 8%;
+
+
+}
+#browse:hover{
+  transform: scale(1.1);
+  transition: 300ms;
+
+}
+#browse{
+  margin-left:23%;
+  margin-top:1%;
+  transform: scale(1);
+}
+
+  #popular_services{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    margin-left:20vw ;
+}
+#popular_services div{
+  height:50vw;
+  width: 50vw;
+}
+#searcharea{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1e767+0,feb645+100;Yellow+3D */
+background: #f1e767; /* Old browsers */
+background: linear-gradient(to bottom,  #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  background-position: center;
+  background-size:cover;
+  height:70vw;
+}
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding:10px;
+  width: 70vw;
+}
+.registered,.customer,.sign_in{
+  background-color: white;
+  margin:auto;
+  padding:40px;
+  height: auto;
+  width: 90vw;
+}
+#searchbar{
+  margin-left:10vw;
+  margin-right:0px;
+  padding-top:10vw;
+  padding-top:15vw;
+  
+}
+.log {
+  height: 20vw;
+}
+
+}
+/*  */
+ @media screen and (min-width:600px) { 
+
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  width: 40vw;
+}
+.registered,.customer,.sign_in{
+  background-color: white;
+  margin: auto;
+  padding:2vw;
+  width: 50vw;
+}
+.box{
+  height:200px ;
+  width:100px;
+  
+}
+#browse{
+  margin-left:39%;
+  margin-top:1%;
+  transform: scale(1.2);
+}
+/* particle js*/
+.main_box{
+
+  margin-left:15vw;
+  
+}
+
+} 

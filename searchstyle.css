@@ -1,0 +1,201 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#logo{
+    margin-right:200px;
+}
+#join{
+    padding-right:3vw;
+    padding-left:3vw;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  /* signin */
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+   
+    width: 40vw;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    color:black;
+    float: right;
+    font-size:1vw ;
+    vertical-align: super;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+#registertitle{
+    margin-left:11vw;
+    font-size:1.5vw;
+    margin-bottom:15vw;
+    
+}
+
+
+.modal-content ul{
+display:flex;
+list-style:none;
+}
+
+.modal-inside{
+    /* padding:1vw 3vw 1vw 3vw; */
+    align-items: center;
+}
+
+
+
+/* Style inputs, select elements and textareas */
+
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #0DFF56;
+    color: white;
+    padding: 0.8vw 1vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    margin-left:13vw;
+    width:10vw;
+    font-size:0.9vw;
+  }
+  
+  /* Style the container */
+  .container {
+    
+   
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  form td{
+      padding:0.5vw 1vw 0.5vw 1vw;
+  }
+
+  input[type=text], select, textarea{
+    width: 15vw;
+    margin-left:1vw;
+    padding: 0.4vw 1.5vw 0.4vw 1.5vw;
+    font-size:0.8vw;
+    text-align:center;
+    background-color:#2C2c2C;
+    border-radius: 0.5vw;
+    height:2.5vw;
+    box-shadow:0 0;
+    border: none;
+    
+  }
+
+  .modal1{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-inside1{
+     padding:1vw 3vw 1vw 3vw;
+    align-items: center;
+}
+/* Modal */
+.registered{
+  display: none;
+}
+.customer{
+  display: none;
+}
+
+.sign_in {
+  display: ;
+}
+
+.modal-inside{
+    /* padding:1vw 3vw 1vw 3vw; */
+    align-items: center;
+}
+
+#searchresult div{
+  background-color:red;
+  height:13vw;
+  margin:0.5vw;
+}
+
+#moreresults{
+    padding-right:3vw;
+    padding-left:3vw;
+    margin-left:40%;
+}
+#more_search_results div{
+  background-color:red;
+  height:13vw;
+  margin:0.5vw;
+
+}
+#more_search_results{
+  display:none;
+}
